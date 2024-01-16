@@ -1,0 +1,178 @@
+ /* Google Font CDN LInk  */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("image.png");
+   background-position: right;
+   background-size: cover;
+ }
+
+header nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+    /* background: none; */
+}
+
+nav .navbar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px auto 20px auto;
+}
+.navbar .logo{
+    height: 80px;
+    width: 150px;
+
+}
+.navbar .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.navbar .menu{
+    display: flex;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 17px;
+    color: #2c3e50;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: greenyellow;
+}
+.navbar  .search-box{
+    position: relative;
+    height: 50px;
+    width: 250px;   
+}
+.search-box input[type="text"]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #2c3e50;
+    font-size: 18px;
+    outline: none;
+    border-radius: 8px;
+    padding: 0 10px 0 40px;
+}
+.search-box a{
+    position: absolute;
+    left: 10px;
+    /* border-left-color: 10px; */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #2c3e50;
+    padding: 0 5px 0 0;
+    border-right: 2px solid #2c3e50;
+    }
+
+
+.content{
+    text-align: left;
+    margin: 150px 0 0 200px;
+    padding: 50px 20 100; 
+} 
+
+.text-content{
+    margin: 100px 100px 0 100px;
+
+}
+
+ .text-content .name{
+    font-weight: 700; 
+    font-size: 60px;
+    color: black;
+}
+
+.content .job .typing-text{
+    font-weight: 500;
+    font-size: 50px;
+    overflow: hidden;
+    color: purple; 
+    white-space: nowrap;
+    animation: typing 5s steps(15) infinite;
+    border-right: 2px solid #211e1e; 
+}
+ @keyframes typing{
+    0%{
+      width: 0ch;
+    }
+    50%{
+      width: 15ch;
+    }
+ }
+
+  .content .buttons{
+    margin: 20px 0 0 50px;
+  }
+
+  .content .buttons button{
+    color: white;
+    margin: 0 10px;
+    background: linear-gradient(80deg,purple 70%, black 100% );
+    cursor: pointer;
+    padding: 8px 6px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  header .girl img{
+  height: 80%;
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+ }
+
+ header .media-icons{
+    position: absolute;
+     right: 40px;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;  
+ } 
+
+ .media-icons{
+    margin-left: 8px 0;
+    font-size: 20px;
+    color: ;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+ .media-icons a:hover{
+    opacity: 1;
+ }
+
+ 
+
+
+
+
+
+
+
